@@ -1,0 +1,81 @@
+div {
+  background-color: whitesmoke;
+  background-repeat: no-repeat;
+  background-size: 200vh;
+  height: 120vh;
+  padding-top: 20px;
+}
+h1 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+  color: rgb(22, 11, 11);
+  font-size: 30px;
+}
+p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+  color: rgb(39, 10, 10);
+  font-size: 20px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.button {
+  justify-content: center;
+  background-color: rgb(136, 5, 243);
+  color: rgb(229, 227, 236);
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  height: 40px;
+  width: 200px;
+  padding-top: 10px;
+  font-size: 18px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 100px;
+  border-style: solid;
+  border-color: transparent;
+}
+.image {
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+  margin-top: 30px;
+}
+.imagetag {
+  width: 95%;
+  margin-right: auto;
+  margin-left: auto;
+  height: 77%;
+}
+.ourlatestproject {
+  background-color: black;
+  height: 120vh;
+}
+.h2tag {
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 40px;
+}
+.ptag {
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 30px;
+}
+.divforimg {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+.divforimg div {
+  width: calc(100% / 4);
+}
+.divforimg div img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
